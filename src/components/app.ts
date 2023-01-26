@@ -55,7 +55,7 @@ class App {
 
     const initialBrandId = brands[0].id;
     this.carForm = new CarForm({
-      title: 'Sukurkite naują automobilį',
+      title: 'Sukurkite naują automobilį apie kurį galima pasvajot',
       submitBtnText: 'Sukurti',
       values: {
         brand: initialBrandId,
